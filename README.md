@@ -2,6 +2,10 @@
 
 Docker image for self-hosting [Jamstash](https://github.com/tsquillario/Jamstash) audio player.  
 
+[DockerHub location](https://hub.docker.com/r/fkrivsky/jamstash)
+
+[Github Repo](https://github.com/fkrivsky/jamstash-docker)
+
 ## Usage
 
 With simple run:  
@@ -25,8 +29,5 @@ services:
 
 Need to install architecture support for multi-arch build, eg. `docker run --privileged --rm tonistiigi/binfmt --install all`
 
-## Info
-
-[DockerHub location](https://hub.docker.com/r/fkrivsky/jamstash)
-
-[Github Repo](https://github.com/fkrivsky/jamstash-docker)
+---
+> Inspired by [uGeek/docker-jamstash](https://github.com/uGeek/docker-jamstash)
