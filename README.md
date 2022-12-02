@@ -27,7 +27,7 @@ services:
 
 `docker buildx build --push --platform linux/arm/v7,linux/arm64,linux/amd64,linux/386,linux/s390x --tag fkrivsky/jamstash:$(date +"%Y-%m-%d") --tag fkrivsky/jamstash:latest .`
 
-Need to install architecture support for multi-arch build, eg. `docker run --privileged --rm tonistiigi/binfmt --install all`
+> Need to install architecture support for multi-arch build, eg. `docker run --privileged --rm tonistiigi/binfmt --install all`
 
 ---
-> Inspired by [uGeek/docker-jamstash](https://github.com/uGeek/docker-jamstash)
+_Inspired by [uGeek/docker-jamstash](https://github.com/uGeek/docker-jamstash)_
