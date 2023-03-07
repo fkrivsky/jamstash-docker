@@ -6,6 +6,10 @@ Docker image for self-hosting [Jamstash](https://github.com/tsquillario/Jamstash
 
 [Github Repo](https://github.com/fkrivsky/jamstash-docker)
 
+TODO:
+
+- try distroless image: <https://github.com/GoogleContainerTools/distroless>
+
 ## Usage
 
 With simple run:  
